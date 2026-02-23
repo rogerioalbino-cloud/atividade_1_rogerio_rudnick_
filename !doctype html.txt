@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Exercício HTML</title>
+  </head>
+
+  <body>
+    <header>
+      <h1>Estrutura HTML Completa</h1>
+      <p>Modelo para a atividade.</p>
+    </header>
+
+    <nav>
+      <ul>
+        <li><a href="#apresentacao">Apresentação</a></li>
+        <li><a href="#lista">Lista de Conteúdos</a></li>
+        <li><a href="#contato">Formulário</a></li>
+      </ul>
+    </nav>
+
+    <main>
+
+      <section id="apresentacao">
+        <h2>Apresentação</h2>
+        <p>
+          Esta página expõe vários componentes importantes da linguagem HTML. O propósito é exercitar a construção adequada de conteúdo por meio de tags corretas e de uma estrutura semântica bem definida.
+        </p>
+        <p>
+          A construção de páginas web é uma habilidade 
+          <strong>fundamental</strong> no desenvolvimento front-end,
+          e entender a estrutura básica do HTML é
+          <em>extremamente importante</em> para criar sites bem organizados.
+        </p>
+      </section>
+
+      <section id="lista">
+        <h2>Lista de Conteúdos</h2>
+        <ul>
+          <li>Estrutura básica (HTML, HEAD, BODY)</li>
+          <li>Tags de texto e semântica</li>
+          <li>Imagens e elementos de mídia</li>
+          <li>Formulários e envio de dados</li>
+        </ul>
+      </section>
+
+      <section id="midia">
+        <h2>Exemplo de Mídia</h2>
+        <figure>
+          <img 
+            src="https://i.ytimg.com/vi/L1CDpncrqpw/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLBTf9mxo67Jl3WMPVlTEGJoIYm69g" 
+            alt="Mega Cavaleiro"
+            width="200"
+            height="200"
+          />
+          <figcaption>Imagem ilustrativa do Mega cavaleiro.</figcaption>
+        </figure>
+      </section>
+
+      <section id="tabela">
+        <h2>Tabela de Itens</h2>
+        <table border="1">
+          <tr>
+            <th>Item</th>
+            <th>Descrição</th>
+            <th>Prioridade</th>
+          </tr>
+          <tr>
+            <td>HTML</td>
+            <td>Estrutura da página</td>
+            <td>Alta</td>
+          </tr>
+          <tr>
+            <td>CSS</td>
+            <td>Estilização visual</td>
+            <td>Média</td>
+          </tr>
+          <tr>
+            <td>JavaScript</td>
+            <td>Interatividade</td>
+            <td>Alta</td>
+          </tr>
+        </table>
+      </section>
+
+      <section id="contato">
+        <h2>Formulário de Contato</h2>
+        <form action="#" method="post">
+          <input type="text" name="nome" placeholder="Digite seu nome completo" /><br><br>
+
+          <input type="email" name="email" placeholder="Digite seu e-mail" required /><br><br>
+
+          <select name="assunto">
+            <option value="duvida">Dúvida</option>
+            <option value="sugestao">Sugestão</option>
+            <option value="outro">Outro</option>
+          </select><br><br>
+
+          <textarea name="mensagem" rows="4" cols="40" placeholder="Digite sua mensagem"></textarea><br><br>
+
+          <button type="submit">Enviar</button>
+        </form>
+      </section>
+
+    </main>
+
+    <footer>
+      <p>
+        Página criada como exercício. Fonte consultada: 
+        <a href="https://html.com/">HTML</a>
+      </p>
+    </footer>
+  </body>
+</html>
